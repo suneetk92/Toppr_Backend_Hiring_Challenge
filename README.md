@@ -5,6 +5,6 @@ Please find below the steps:<br>
    b. Then change the value of "database" in config.js to point to the local instance.<br>
 4. Execute "node server.js" in console to start the server.<br>
 5. Now visit the localhost:1337/list /count /stats to access the GOT API. Or else you can access the api from heroku server(https://toppr-backend.herokuapp.com/).<br>
-   List - https://toppr-backend.herokuapp.com/list
-   Count - https://toppr-backend.herokuapp.com/count
-   Stats - https://toppr-backend.herokuapp.com/stats
+   List - https://toppr-backend.herokuapp.com/list<br>
+   Count - https://toppr-backend.herokuapp.com/count<br>
+   Stats - https://toppr-backend.herokuapp.com/stats<br>
