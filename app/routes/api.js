@@ -38,12 +38,6 @@ module.exports = function(app, express) {
 		.get(function(req, res) {
 			console.log(req);
 			res.json({ message: 'search'});
-			/*User.findOne({ "_id": ObjectId(req.params.user_id) }, function(err, user) {
-				if (err) {
-					res.send(err);
-				}
-				res.json(user);
-			});*/
 		});
 
 	apiRouter.route('/stats')
