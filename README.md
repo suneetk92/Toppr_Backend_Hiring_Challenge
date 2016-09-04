@@ -8,3 +8,4 @@ Please find below the steps:<br>
    List - https://toppr-backend.herokuapp.com/list<br>
    Count - https://toppr-backend.herokuapp.com/count<br>
    Stats - https://toppr-backend.herokuapp.com/stats<br>
+6. Screenshots are added in /Screenshots folder.
