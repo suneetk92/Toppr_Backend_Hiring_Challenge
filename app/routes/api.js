@@ -79,7 +79,7 @@ module.exports = function(app, express) {
 				if(err)
 					res.json(err);
 				stats.defender_size.average = sizes[0].avg;
-				//stats.defender_size.max = sizes[0].max;
+				stats.defender_size.max = sizes[0].max;
 				stats.defender_size.min = sizes[0].min;
 				//console.log(stats);
 			});

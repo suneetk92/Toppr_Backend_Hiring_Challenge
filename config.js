@@ -1,5 +1,5 @@
 module.exports = {
 	'port'     : process.env.PORT || 1337,
-	'database' : 'mongodb://localhost:27017/Toppr'
-	//'database' : 'mongodb://sk:suneet@ds023078.mlab.com:23078/api'
+	//'database' : 'mongodb://localhost:27017/toppr'
+	'database' : 'mongodb://sk:suneet@ds019766.mlab.com:19766/toppr'
 };
