@@ -1,7 +1,6 @@
 // Call the packages
 var Battles     = require('../models/battles');
 var config      = require('../../config');
-var mongoDB     = require('mongodb');
 
 module.exports = function(app, express) {
 
@@ -120,7 +119,6 @@ module.exports = function(app, express) {
 				if(err)
 					res.json(err);
 				stats.defender_size.max = parseInt(maxSize[0].defender_size);
-				console.log(stats);
 				res.json(stats);
 			});
 		});
